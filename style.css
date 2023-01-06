@@ -62,21 +62,18 @@
     margin: auto;
     padding: 10px;
 }
-.btn-btn-dis{
+.btn2{
     font-size: 16px;
-    background-color: rgb(245, 44, 44);
-    color: white;
     border: none;
     margin: 5px;
     padding: 15px 35px;
 
 }
-.btn-btn-hire{
-    font-size: 16px;
-    background-color: rgb(255, 253, 253);
-    color: rgb(0, 0, 0);
-    border: none;
-    margin: 5px;
-    padding: 15px 35px;
+.btn-btn-dis{
+    background-color: rgb(245, 44, 44);
+    color: white;
 
+}
+.btn-btn-hire{
+    background-color: rgb(255, 253, 253);
 }
