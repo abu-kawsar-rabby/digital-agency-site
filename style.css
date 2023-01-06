@@ -84,8 +84,9 @@
     linear-gradient(rgba(0, 0, 0, 0.89),rgba(0, 0, 0, 0.938));
     background-blend-mode: overlay;
     color: rgb(190, 207, 208);
-    padding: 20px;
-
+    padding: 70px;
+    display: flex;
+    justify-content: center;
 
 }
 .service-btn{
@@ -135,5 +136,29 @@
 .more-details {
     padding: 20px;
     margin-left: 11px;
-    border-radius: 25px;
-    color: rgb(245, 44, 44);
+}
+.service-up{
+    display: flex;
+}
+.service-down{
+    display: flex;
+}
+.service{
+    padding: 20px;
+    background-color: white;
+    box-shadow: 4px 4px 8px gray;
+    width: 200px;
+    height: 200px;
+    text-align: center;
+    color: black;
+    border-radius: 10px;
+    margin: 5px;
+
+}
+.service-logo{
+    width: 50%;
+    padding-bottom: 10px;
+}
+.service-left-container{
+    width: 50%;
+}
