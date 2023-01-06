@@ -1,0 +1,36 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.nav-container{
+    display: flex;
+    background: #D5D2D2;
+    justify-content: space-around;
+
+
+}
+.logo-container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 18px;
+    font-weight: 600;
+    color: cyan;
+
+}
+.logo{
+    width: 200px;
+}
+
+.items{
+    display: flex;
+    list-style: none;
+}
+.item{
+    
+    margin-right: 10px;
+    padding: 10px;
+    font-size: 19px;
+    text-decoration: none;
+    cursor: pointer;
+}
